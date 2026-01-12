@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.goal-column {
+  border: 2px solid #000;
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-column h3 {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.goal-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.goal-card {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions button {
+  background: none;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.actions button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.add-goal {
+  padding: 15px;
+  border-top: 2px solid #000;
+  display: flex;
+  gap: 10px;
+}
+
+.add-goal input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #000;
+  font-family: inherit;
+}
+
+.add-goal button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-goal button:hover {
+  background-color: #333;
+}
